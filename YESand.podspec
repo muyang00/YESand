@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'YESand'
-s.version     = '1.0.0'
+s.version     = '1.0.1'
 s.authors     = { 'muyang00' => '280798744@qq.com' }
 s.homepage    = 'https://github.com/muyang00/YESand'
 s.summary     = 'a dropdown menu for ios like save homepage.'
