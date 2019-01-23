@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  abc.h
 //  YESandCache
 //
 //  Created by yongen on 2019/1/23.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
-
-@property(nonatomic, strong) NSString *name;
-@property(nonatomic, strong) NSString *age;
+@interface abc : NSObject
 
 @end

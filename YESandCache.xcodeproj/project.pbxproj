@@ -15,12 +15,13 @@
 		B445A49721F8417A003ABAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445A49521F8417A003ABAD3 /* LaunchScreen.storyboard */; };
 		B445A49A21F8417A003ABAD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A49921F8417A003ABAD3 /* main.m */; };
 		B445A4A421F8417A003ABAD3 /* YESandCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4A321F8417A003ABAD3 /* YESandCacheTests.m */; };
-		B445A4BE21F8418C003ABAD3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4BD21F8418C003ABAD3 /* Person.m */; };
 		B445A4CF21F8420A003ABAD3 /* YESandiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B445A4C621F84209003ABAD3 /* YESandiOS.framework */; };
 		B445A4D621F8420A003ABAD3 /* YESandiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4D521F8420A003ABAD3 /* YESandiOSTests.m */; };
 		B445A4D821F8420A003ABAD3 /* YESandiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B445A4C821F84209003ABAD3 /* YESandiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B445A4DB21F8420A003ABAD3 /* YESandiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B445A4C621F84209003ABAD3 /* YESandiOS.framework */; };
 		B445A4DC21F8420A003ABAD3 /* YESandiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B445A4C621F84209003ABAD3 /* YESandiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B445A4EB21F84890003ABAD3 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4EA21F84890003ABAD3 /* abc.m */; };
+		B445A4EE21F8489C003ABAD3 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4ED21F8489C003ABAD3 /* c.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,14 +84,18 @@
 		B445A49F21F8417A003ABAD3 /* YESandCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YESandCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B445A4A321F8417A003ABAD3 /* YESandCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YESandCacheTests.m; sourceTree = "<group>"; };
 		B445A4A521F8417A003ABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B445A4BC21F8418C003ABAD3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		B445A4BD21F8418C003ABAD3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B445A4C621F84209003ABAD3 /* YESandiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YESandiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B445A4C821F84209003ABAD3 /* YESandiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YESandiOS.h; sourceTree = "<group>"; };
 		B445A4C921F84209003ABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B445A4CE21F8420A003ABAD3 /* YESandiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YESandiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B445A4D521F8420A003ABAD3 /* YESandiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YESandiOSTests.m; sourceTree = "<group>"; };
 		B445A4D721F8420A003ABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B445A4E421F847B6003ABAD3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B445A4E621F84801003ABAD3 /* YE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YE.h; sourceTree = "<group>"; };
+		B445A4E921F84890003ABAD3 /* abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
+		B445A4EA21F84890003ABAD3 /* abc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
+		B445A4EC21F8489C003ABAD3 /* c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
+		B445A4ED21F8489C003ABAD3 /* c.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +177,7 @@
 			children = (
 				B445A4A321F8417A003ABAD3 /* YESandCacheTests.m */,
 				B445A4A521F8417A003ABAD3 /* Info.plist */,
+				B445A4E421F847B6003ABAD3 /* PrefixHeader.pch */,
 			);
 			path = YESandCacheTests;
 			sourceTree = "<group>";
@@ -179,8 +185,9 @@
 		B445A4C021F841D9003ABAD3 /* YESand */ = {
 			isa = PBXGroup;
 			children = (
-				B445A4BC21F8418C003ABAD3 /* Person.h */,
-				B445A4BD21F8418C003ABAD3 /* Person.m */,
+				B445A4E621F84801003ABAD3 /* YE.h */,
+				B445A4E721F8484B003ABAD3 /* B */,
+				B445A4E821F8484B003ABAD3 /* C */,
 			);
 			path = YESand;
 			sourceTree = "<group>";
@@ -201,6 +208,24 @@
 				B445A4D721F8420A003ABAD3 /* Info.plist */,
 			);
 			path = YESandiOSTests;
+			sourceTree = "<group>";
+		};
+		B445A4E721F8484B003ABAD3 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				B445A4E921F84890003ABAD3 /* abc.h */,
+				B445A4EA21F84890003ABAD3 /* abc.m */,
+			);
+			path = B;
+			sourceTree = "<group>";
+		};
+		B445A4E821F8484B003ABAD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				B445A4EC21F8489C003ABAD3 /* c.h */,
+				B445A4ED21F8489C003ABAD3 /* c.m */,
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,9 +407,10 @@
 			files = (
 				B445A49221F8417A003ABAD3 /* YESandCache.xcdatamodeld in Sources */,
 				B445A48C21F8417A003ABAD3 /* ViewController.m in Sources */,
-				B445A4BE21F8418C003ABAD3 /* Person.m in Sources */,
 				B445A49A21F8417A003ABAD3 /* main.m in Sources */,
+				B445A4EE21F8489C003ABAD3 /* c.m in Sources */,
 				B445A48921F8417A003ABAD3 /* AppDelegate.m in Sources */,
+				B445A4EB21F84890003ABAD3 /* abc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
