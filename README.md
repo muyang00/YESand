@@ -1,7 +1,8 @@
 # YESand
 
 
-#制作方法
+制作方法
+
 1.写好代码，上传到github
      //github上创建项目仓库的时候记得创建LICENSE(许可证/授权)文件,此文件必须要有      
 
@@ -9,7 +10,9 @@
     cd到你项目的目录,执行命令
 
   pod spec create YESandbox
+  
 3.编辑.podspec
+  看最下面的podspec文件
 
 
 4.验证.podspec
@@ -31,6 +34,7 @@ pod trunk register example@example.com 'YESandbox'  --verbose
 
     注册完成后使用pod trunk me检验注册是否成功
 
+
 6.将自己的项目打成tag
        因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
 
@@ -39,6 +43,8 @@ pod trunk register example@example.com 'YESandbox'  --verbose
 git tag "1.0.0" 
       
 git push --tags
+
+
 7.发布
 pod trunk push YESandbox.podspec
     时间较长，耐性等待，大概5-10分钟       ###8.测试自己的cocoapods
@@ -49,6 +55,7 @@ rm ~/Library/Caches/CocoaPods/search_index.json
     然后
 
 pod search lujhPrivate
+
 
 完整的命令
 
@@ -130,6 +137,7 @@ end
 
 ```
 
+到这里就全部结束了
 
 
 
