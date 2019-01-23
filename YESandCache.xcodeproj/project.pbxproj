@@ -22,6 +22,7 @@
 		B445A4DC21F8420A003ABAD3 /* YESandiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B445A4C621F84209003ABAD3 /* YESandiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B445A4EB21F84890003ABAD3 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4EA21F84890003ABAD3 /* abc.m */; };
 		B445A4EE21F8489C003ABAD3 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4ED21F8489C003ABAD3 /* c.m */; };
+		B445A4F121F84A15003ABAD3 /* ye.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4F021F84A15003ABAD3 /* ye.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		B445A4EA21F84890003ABAD3 /* abc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
 		B445A4EC21F8489C003ABAD3 /* c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
 		B445A4ED21F8489C003ABAD3 /* c.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c.m; sourceTree = "<group>"; };
+		B445A4EF21F84A15003ABAD3 /* ye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ye.h; sourceTree = "<group>"; };
+		B445A4F021F84A15003ABAD3 /* ye.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ye.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,8 @@
 			children = (
 				B445A4E921F84890003ABAD3 /* abc.h */,
 				B445A4EA21F84890003ABAD3 /* abc.m */,
+				B445A4EF21F84A15003ABAD3 /* ye.h */,
+				B445A4F021F84A15003ABAD3 /* ye.m */,
 			);
 			path = B;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B445A49221F8417A003ABAD3 /* YESandCache.xcdatamodeld in Sources */,
+				B445A4F121F84A15003ABAD3 /* ye.m in Sources */,
 				B445A48C21F8417A003ABAD3 /* ViewController.m in Sources */,
 				B445A49A21F8417A003ABAD3 /* main.m in Sources */,
 				B445A4EE21F8489C003ABAD3 /* c.m in Sources */,
