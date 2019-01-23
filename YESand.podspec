@@ -9,11 +9,13 @@ s.source      = { :git => 'https://github.com/muyang00/YESand.git',
 s.license     = { :type => "MIT", :file => "LICENSE" }
 s.platform = :ios, '8.0'
 s.requires_arc = true
-s.source_files = 'YESand/**/*.{h,m}'
-s.social_media_url = ""
+
+s.source_files = 'YESand/*.{h,m}'
+s.public_header_files = 'YESand/Person.h'
 
 s.ios.deployment_target = '8.0'
+
 s.frameworks   =  'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
-s.dependency 'SAMKeychain'
+
 
 end
