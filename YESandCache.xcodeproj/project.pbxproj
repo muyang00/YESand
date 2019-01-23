@@ -20,9 +20,9 @@
 		B445A4D821F8420A003ABAD3 /* YESandiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B445A4C821F84209003ABAD3 /* YESandiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B445A4DB21F8420A003ABAD3 /* YESandiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B445A4C621F84209003ABAD3 /* YESandiOS.framework */; };
 		B445A4DC21F8420A003ABAD3 /* YESandiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B445A4C621F84209003ABAD3 /* YESandiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B445A4EB21F84890003ABAD3 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4EA21F84890003ABAD3 /* abc.m */; };
-		B445A4EE21F8489C003ABAD3 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4ED21F8489C003ABAD3 /* c.m */; };
-		B445A4F121F84A15003ABAD3 /* ye.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4F021F84A15003ABAD3 /* ye.m */; };
+		B445A4FC21F84C40003ABAD3 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4F521F84C40003ABAD3 /* abc.m */; };
+		B445A4FD21F84C40003ABAD3 /* ye.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4F721F84C40003ABAD3 /* ye.m */; };
+		B445A4FE21F84C40003ABAD3 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = B445A4FA21F84C40003ABAD3 /* c.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,13 +92,13 @@
 		B445A4D521F8420A003ABAD3 /* YESandiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YESandiOSTests.m; sourceTree = "<group>"; };
 		B445A4D721F8420A003ABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B445A4E421F847B6003ABAD3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		B445A4E621F84801003ABAD3 /* YE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YE.h; sourceTree = "<group>"; };
-		B445A4E921F84890003ABAD3 /* abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
-		B445A4EA21F84890003ABAD3 /* abc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
-		B445A4EC21F8489C003ABAD3 /* c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
-		B445A4ED21F8489C003ABAD3 /* c.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c.m; sourceTree = "<group>"; };
-		B445A4EF21F84A15003ABAD3 /* ye.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ye.h; sourceTree = "<group>"; };
-		B445A4F021F84A15003ABAD3 /* ye.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ye.m; sourceTree = "<group>"; };
+		B445A4F421F84C40003ABAD3 /* abc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
+		B445A4F521F84C40003ABAD3 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
+		B445A4F621F84C40003ABAD3 /* ye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ye.h; sourceTree = "<group>"; };
+		B445A4F721F84C40003ABAD3 /* ye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ye.m; sourceTree = "<group>"; };
+		B445A4F921F84C40003ABAD3 /* c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
+		B445A4FA21F84C40003ABAD3 /* c.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = c.m; sourceTree = "<group>"; };
+		B445A4FB21F84C40003ABAD3 /* YE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YE.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 		B445A48621F8417A003ABAD3 /* YESandCache */ = {
 			isa = PBXGroup;
 			children = (
-				B445A4C021F841D9003ABAD3 /* YESand */,
+				B445A4F221F84C40003ABAD3 /* YESand */,
 				B445A48721F8417A003ABAD3 /* AppDelegate.h */,
 				B445A48821F8417A003ABAD3 /* AppDelegate.m */,
 				B445A48A21F8417A003ABAD3 /* ViewController.h */,
@@ -185,16 +185,6 @@
 			path = YESandCacheTests;
 			sourceTree = "<group>";
 		};
-		B445A4C021F841D9003ABAD3 /* YESand */ = {
-			isa = PBXGroup;
-			children = (
-				B445A4E621F84801003ABAD3 /* YE.h */,
-				B445A4E721F8484B003ABAD3 /* B */,
-				B445A4E821F8484B003ABAD3 /* C */,
-			);
-			path = YESand;
-			sourceTree = "<group>";
-		};
 		B445A4C721F84209003ABAD3 /* YESandiOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,22 +203,32 @@
 			path = YESandiOSTests;
 			sourceTree = "<group>";
 		};
-		B445A4E721F8484B003ABAD3 /* B */ = {
+		B445A4F221F84C40003ABAD3 /* YESand */ = {
 			isa = PBXGroup;
 			children = (
-				B445A4E921F84890003ABAD3 /* abc.h */,
-				B445A4EA21F84890003ABAD3 /* abc.m */,
-				B445A4EF21F84A15003ABAD3 /* ye.h */,
-				B445A4F021F84A15003ABAD3 /* ye.m */,
+				B445A4F321F84C40003ABAD3 /* B */,
+				B445A4F821F84C40003ABAD3 /* C */,
+				B445A4FB21F84C40003ABAD3 /* YE.h */,
+			);
+			path = YESand;
+			sourceTree = SOURCE_ROOT;
+		};
+		B445A4F321F84C40003ABAD3 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				B445A4F421F84C40003ABAD3 /* abc.h */,
+				B445A4F521F84C40003ABAD3 /* abc.m */,
+				B445A4F621F84C40003ABAD3 /* ye.h */,
+				B445A4F721F84C40003ABAD3 /* ye.m */,
 			);
 			path = B;
 			sourceTree = "<group>";
 		};
-		B445A4E821F8484B003ABAD3 /* C */ = {
+		B445A4F821F84C40003ABAD3 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				B445A4EC21F8489C003ABAD3 /* c.h */,
-				B445A4ED21F8489C003ABAD3 /* c.m */,
+				B445A4F921F84C40003ABAD3 /* c.h */,
+				B445A4FA21F84C40003ABAD3 /* c.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -411,12 +411,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B445A49221F8417A003ABAD3 /* YESandCache.xcdatamodeld in Sources */,
-				B445A4F121F84A15003ABAD3 /* ye.m in Sources */,
+				B445A4FE21F84C40003ABAD3 /* c.m in Sources */,
 				B445A48C21F8417A003ABAD3 /* ViewController.m in Sources */,
 				B445A49A21F8417A003ABAD3 /* main.m in Sources */,
-				B445A4EE21F8489C003ABAD3 /* c.m in Sources */,
 				B445A48921F8417A003ABAD3 /* AppDelegate.m in Sources */,
-				B445A4EB21F84890003ABAD3 /* abc.m in Sources */,
+				B445A4FC21F84C40003ABAD3 /* abc.m in Sources */,
+				B445A4FD21F84C40003ABAD3 /* ye.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
